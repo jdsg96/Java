@@ -3,7 +3,7 @@
 1 - 4339021
 BUILD STOPPED (total time: 125 minutes 58 seconds)
 
-4339021
+1 - 4339021
 Lista de numeros primos, segun rango numerico ingresado
 Inicia en: Termina en: Ha Terminado
 BUILD SUCCESSFUL (total time: 20 minutes 57 seconds)
