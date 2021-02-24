@@ -1,4 +1,3 @@
-//planificar mejor el proceso por lotes del rango numerico para primos
 
 /*
 1 - 4339021
@@ -8,13 +7,10 @@ BUILD STOPPED (total time: 125 minutes 58 seconds)
 Lista de numeros primos, segun rango numerico ingresado
 Inicia en: Termina en: Ha Terminado
 BUILD SUCCESSFUL (total time: 20 minutes 57 seconds)
-
-Por motivo de: if(cuenta >=2 ){j=i-2;}else{}//con esta linea se descarta el numero, sin esperar a sacar todos los posibles divisores del numero 'i'
-se puede mejorar, falta comprobar que revise toda la distribucion de primos, no se salte...
 */
 package internet;
 import java.util.Scanner;
-public class RangoPrimos {//por mejorar... pasar al siguiente numero cuando hay mas de un divisor, pues se trata de primos nada mas... mas velocidad...
+public class RangoPrimos {
     public static void rangoPrimos() {
     Scanner rango = new Scanner(System.in);
     int ciclo = 1;
@@ -29,7 +25,7 @@ public class RangoPrimos {//por mejorar... pasar al siguiente numero cuando hay 
         }else{
             //nada
         }
-        if( a % 2 == 0 ){//aqui esta el problema, esta condicion excluye todos los pares... pero solo se necesita el unico par primo...
+        if( a % 2 == 0 ){
             a = a+1;
         }else{
             //nada
@@ -55,11 +51,15 @@ public class RangoPrimos {//por mejorar... pasar al siguiente numero cuando hay 
                     if(cuenta >=2 ){j=i-2;}else{}//ULTIMA- REVISAR...
                     //System.out.println(i+" - "+j+" --> "+cuenta+" divisores");
                 }else{
-                    //No hacer nada, el siguiente else cuenta el total de divisores del numero 'i', mas divisores, no primo, ya casi
+                    //No hacer nada, el siguiente else cuenta el total de divisores del numero 'i', mas divisores = no primo.
                 }
                 }else{
-                    if(cuenta == 1){System.out.println(i);}else{/*nada*/}
-                    //System.out.println(i+" - "+cuenta+" divisores");//cuenta 1: primos, cuenta other: no primos, e incluir 2 y 5, como hacerlo?
+                    if(cuenta == 1){
+                        System.out.println(i);//mostrar solamente los numeros primos
+                    }else{
+                        /*nada*/
+                    }
+                    //System.out.println(i+" - "+cuenta+" divisores");
                     cuenta = 0;
                 }
             }
