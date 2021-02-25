@@ -1,3 +1,15 @@
+/*
+Autor: Juan David Sánchez Guzmán
+
+Aprendiz de Programación
+Algoritmo: Lee 2 numeros que corresponde a donde inicia hasta donde termina (rango numerico)
+Motivo: Reto de programacion en que se pide generar un listado de numeros primos
+Codigo Java hecho con la herramienta Netbeens 12
+version 0.1 construida en Febrero de 2021
+Por Mejorar: Legibilidad y Re-estructurar el codigo, tbn de hacerlo de forma decreciente, incluir al 2 y ver si hay otras formas de optimizar el proceso
+sobre la distribucion de los numeros primos, por ejemplo para numeros con muchos digitos
+*/
+
 
 /*
 1 - 4339021
