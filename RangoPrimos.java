@@ -60,7 +60,7 @@ public class RangoPrimos {
                 if( i > j ){
                 if(i%j==0){
                     cuenta++;
-                    if(cuenta >=2 ){j=i-2;}else{}//ULTIMA- REVISAR...
+                    if(cuenta >=2 ){j=i-2;}else{}//Esta linea es la que agiliza el proceso, pues evita contar todos los posibles divisores del numero 'i'...
                     //System.out.println(i+" - "+j+" --> "+cuenta+" divisores");
                 }else{
                     //No hacer nada, el siguiente else cuenta el total de divisores del numero 'i', mas divisores = no primo.
