@@ -1,6 +1,6 @@
 /*
 Autor: Juan David Sánchez Guzmán
-Estudios: Bachiller Basico
+
 Aprendiz de Programación
 Algoritmo: Leer un numero y con este, separar y contar sus digitos
 Motivo: Reto de programacion en que se pide hacer lo mencionado, con la condicion de emplear long o int para la hechura del algoritmo
