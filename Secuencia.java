@@ -1,4 +1,10 @@
-
+/*
+Autor: Juan David Sánchez Guzmán 
+Aprendiz de Programación 
+Algoritmo: Serie Fibonacci hasta un aproximado del numero que se le ingrese
+Codigo Java hecho con la herramienta Netbeens 12 
+version 0.1 construida en Febrero de 2021
+*/
 package internet;
 import java.util.Scanner;
 /*
