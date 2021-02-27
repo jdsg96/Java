@@ -12,10 +12,7 @@ import java.util.Scanner;
 0,1,1,2,3,5,8,13,21,34,55,89,144,233,377,610,987,n
 ------------------------------------------
 ------------------------------------------
-Seudo-codigo
-Recursos: 2 variables
-          2 Printf
-          2 Expresiones
+Instrucciones
 # = 0
 $ = 1
 
