@@ -1,7 +1,7 @@
 /*
 Autor: Juan David Sánchez Guzmán 
 Aprendiz de Programación 
-Algoritmo: Lee 2 numeros que corresponde a donde inicia hasta donde termina (rango numerico) 
+Algoritmo: Ingrese un numero y en base al numero se dice, si el numero es primo o no lo es...
 Motivo: Reto de programacion en que se pide generar un listado de numeros primos 
 Codigo Java hecho con la herramienta Netbeens 12 
 version 0.1 construida en Febrero de 2021 
