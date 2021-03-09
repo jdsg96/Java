@@ -15,6 +15,9 @@ Datos de salida: Es primo o no es primo + Dibujo de cuadro
 Ejemplo:
 Luego de ejecutar el codigo, copie lo que esta contenido en comillas...
 Input: "1 2 3 4 5 6 7 8 9 10 0"
+
+Luego de copiar, presione la tecla Enter...
+el cero es la unica opcion valida para terminar el ciclo, si no quiere verlo terminar simplemente ingrese numeros que desee separados por espacio...
 */
 
 import java.util.Scanner;
