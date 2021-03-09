@@ -7,6 +7,14 @@ version 0.1 construida en Marzo de 2021
 ¿Como Funciona?
 Datos de entrada    permitidos: {0,1,2,3,4,5,6,7,8,9} y cualquier conbinacion con estos
 Datos de entrada No permitidos: {los otros botones del teclado}, es decir datos tipo String, excepto: {0,1,2,3,4,5,6,7,8,9}
+
+Procedimiento: Ver codigo...
+
+Datos de salida: Es primo o no es primo + Dibujo de cuadro
+
+Ejemplo:
+Luego de ejecutar el codigo, copie lo que esta contenido en comillas...
+Input: "1 2 3 4 5 6 7 8 9 10 0"
 */
 
 import java.util.Scanner;
