@@ -1,12 +1,12 @@
 /*
 Autor: Juan David Sánchez Guzmán 
 Aprendiz de Programación 
-Algoritmo: Ingrese un numero y en base al numero se dice, si el numero es primo o no lo es...
-Motivo: Reto de programacion en que se pide generar un listado de numeros primos 
+Algoritmo: Ingrese un numero y en base al numero ingresado, se informa si el numero es primo o no lo es...
 Codigo Java hecho con la herramienta Netbeens 12 
-version 0.1 construida en Febrero de 2021 
-Por Mejorar: Legibilidad y Re-estructurar el codigo, tbn de hacerlo de forma decreciente, incluir al 2 y ver si hay otras formas de optimizar el proceso 
-sobre la distribucion de los numeros primos, por ejemplo para numeros con muchos digitos 
+version 0.1 construida en Marzo de 2021 
+¿Como Funciona?
+Datos de entrada    permitidos: {0,1,2,3,4,5,6,7,8,9} y cualquier conbinacion con estos
+Datos de entrada No permitidos: {los otros botones del teclado}, es decir datos tipo String, excepto: {0,1,2,3,4,5,6,7,8,9}
 */
 
 import java.util.Scanner;
