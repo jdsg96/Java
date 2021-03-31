@@ -1,5 +1,5 @@
 
-package infogestion;
+//package infogestion;
 import java.util.Scanner;
 /*
 
