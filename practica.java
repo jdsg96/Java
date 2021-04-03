@@ -1,5 +1,5 @@
 
-package arreglos;
+//package arreglos;
 import java.util.Scanner;
 /*
 Autor: Juan David Sánchez Guzmán 
