@@ -4,8 +4,9 @@ Aprendiz de Programacion
 15 de abril de 2021
 Algoritmo para sacar los factores primos de un numero
 se duplico el codigo, un metodo muestra el procedimiento y el otro lo muestra de forma expresada
+Hecho en netbeens 12 en Ubuntu y probado en ubuntu
 */
-package internet;
+//package internet;
 
 import java.util.Scanner;
 /*import java.io.*;*/
