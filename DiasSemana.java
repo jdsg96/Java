@@ -1,5 +1,6 @@
-package activity3;
+//package activity3;
 import java.util.Scanner;
+//sabado 3 de julio de 2021
 //Juan David Sanchez Guzman
 // Aprendiz algoritmos con java
 //cacharreo fechas rango
